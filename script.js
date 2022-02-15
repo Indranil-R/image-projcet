@@ -1,6 +1,5 @@
 var API_KEY = "KqdVGuCHZwD7dkp5jrX-1RU7RqY8NabJrPpuUptOqt0";
 var apiUrl = "https://api.unsplash.com/photos/random?client_id=" + API_KEY;
-
 const loadImage = async () => {
   document.getElementById("image").innerHTML =
     '<div style="width:100vw; height:60vh; display: flex; justify-content: center; align-items:center; "><div class="spinner-border text-primary" role="status"> <span class="sr-only">Loading...</span></div></div>';

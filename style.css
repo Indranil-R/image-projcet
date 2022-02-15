@@ -1,17 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
-* {
-  /* font-family: 'Shizuru', cursive; */
-  font-family: "Cedarville Cursive", cursive;
+ * {
+     font-family: "Cedarville Cursive", cursive;
 }
-
-
-.img-fluid {
-  max-height: 70vh;
+ .img-fluid {
+     max-height: 70vh;
 }
- 
- 
-.div-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+ .div-footer{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
 }
